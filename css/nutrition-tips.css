@@ -1,0 +1,110 @@
+.page-header {
+  background: linear-gradient(135deg, #28a745, #17a2b8);
+  color: white;
+  padding: 3rem;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.page-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.nutrition-tips {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  color: #333;
+}
+
+.tips-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.tip-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.tip-card:hover {
+  transform: translateY(-5px);
+}
+
+.tip-card h3 {
+  color: #28a745;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.tip-card h3 i {
+  font-size: 1.5rem;
+}
+
+.tip-card ul {
+  list-style: none;
+  margin: 1rem 0;
+}
+
+.tip-card li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  align-items: flex-start;
+}
+
+.tip-card li::before {
+  content: "✓ ";
+  color: #28a745;
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 2rem 5%;
+}
+
+.btn {
+  background: #28a745;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+.btn:hover {
+  background: darkcyan;
+  transform: translateY(-3px);
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+  .page-header h1 {
+    font-size: 2rem;
+  }
+  body {
+    padding-top: 70px;
+  }
+}

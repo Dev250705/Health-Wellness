@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health - HealthHub</title>
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/mental-health.css">
+   
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="nav-container">
+            <div class="logo">
+                <i class="fas fa-heartbeat"></i> 
+                <a href="index.html" style="text-decoration: none; color: inherit;">HealthHub</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="fitness.html">Fitness</a></li>
+                <li><a href="yoga.html">Yoga</a></li>
+                <li><a href="nutrition.html">Nutrition</a></li>
+                <li><a href="mental-health.html" style="color: #28a745;">Mental Health</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>Mental Health & Wellness</h1>
+        <p>Tools and techniques for stress management, mindfulness and better mental health</p>
+    </section>
+
+    <!-- Stress Management -->
+    <section class="stress-management">
+        <h2 class="section-title">Stress Management Techniques</h2>
+        <div class="techniques-grid">
+            <!-- Deep Breathing -->
+            <div class="technique-card">
+                <h3>Deep Breathing</h3>
+                <p>Calm your nervous system instantly</p>
+                <ul>
+                    <li>Sit comfortably with straight back</li>
+                    <li>Inhale deeply through nose for 4 counts</li>
+                    <li>Hold breath for 4 counts</li>
+                    <li>Exhale slowly through mouth for 6 counts</li>
+                    <li>Repeat 5-10 times</li>
+                </ul>
+            </div>
+
+            <!-- Progressive Relaxation -->
+            <div class="technique-card">
+                <h3>Progressive Muscle Relaxation</h3>
+                <p>Release physical tension</p>
+                <ul>
+                    <li>Start from toes and move upward</li>
+                    <li>Tense each muscle group for 5 seconds</li>
+                    <li>Release and relax for 30 seconds</li>
+                    <li>Notice the difference in sensation</li>
+                    <li>Complete full body in 15 minutes</li>
+                </ul>
+            </div>
+
+            <!-- Grounding Technique -->
+            <div class="technique-card">
+                <h3>5-4-3-2-1 Grounding</h3>
+                <p>Stay present during anxiety</p>
+                <ul>
+                    <li>Name 5 things you can see</li>
+                    <li>Name 4 things you can touch</li>
+                    <li>Name 3 things you can hear</li>
+                    <li>Name 2 things you can smell</li>
+                    <li>Name 1 thing you can taste</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mindfulness -->
+    <section class="mindfulness">
+        <h2 class="section-title">Mindfulness Practices</h2>
+        <div class="mindfulness-grid">
+            <div class="mindfulness-card">
+                <h3>Daily Mindfulness</h3>
+                <ol>
+                    <li>Start with 5 minutes of quiet sitting</li>
+                    <li>Focus on your breath without changing it</li>
+                    <li>When mind wanders, gently bring it back</li>
+                    <li>Practice while doing daily activities</li>
+                    <li>Eat one meal mindfully each day</li>
+                    <li>Notice sensations without judgment</li>
+                </ol>
+            </div>
+            <div class="mindfulness-card">
+                <h3>Gratitude Practice</h3>
+                <ol>
+                    <li>Keep a gratitude journal</li>
+                    <li>Write 3 things you're grateful for daily</li>
+                    <li>Be specific about why you're grateful</li>
+                    <li>Include small everyday things</li>
+                    <li>Share gratitude with others</li>
+                    <li>Notice how it changes your perspective</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sleep Tips -->
+    <section class="sleep-tips">
+        <h2 class="section-title">Better Sleep Tips</h2>
+        <div class="tips-grid">
+            <div class="tip-card">
+                <i class="fas fa-bed"></i>
+                <h3>Consistent Schedule</h3>
+                <p>Sleep and wake at same time daily</p>
+            </div>
+            <div class="tip-card">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>Digital Detox</h3>
+                <p>No screens 1 hour before bedtime</p>
+            </div>
+            <div class="tip-card">
+                <i class="fas fa-temperature-low"></i>
+                <h3>Cool Room</h3>
+                <p>Keep bedroom temperature around 18-20°C</p>
+            </div>
+            <div class="tip-card">
+                <i class="fas fa-book"></i>
+                <h3>Relaxing Routine</h3>
+                <p>Develop pre-sleep calming activities</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Navigation -->
+    <section style="padding: 3rem 5%; text-align: center;">
+        <a href="stress-relief.html" class="btn">Stress Relief</a>
+        <a href="index.html" class="btn1">Back to Home</a>
+    </section>
+
+    <section class="quick-links">
+      <h3>Quick Links</h3>
+      <div>
+        <a href="index.html">Home</a> • <a href="fitness.html">Fitness</a> •
+        <a href="yoga.html">Yoga</a> • <a href="nutrition.html">Nutrition</a> •
+        <a href="mental-health.html">Mental Health</a> •
+        <a href="about.html">About</a>
+      </div>
+    </section>
+    <footer>
+      <p>&copy; 2025 HealthHub. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Hover effects for cards
+        document.querySelectorAll('.technique-card, .mindfulness-card, .tip-card').forEach(card => {
+            card.addEventListener('mouseover', function() {
+                this.style.transform = 'translateY(-5px)';
+                this.style.transition = 'transform 0.3s ease';
+            });
+            
+            card.addEventListener('mouseout', function() {
+                this.style.transform = 'translateY(0)';
+            });
+        });
+
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Breathing exercise timer
+        function startBreathingExercise() {
+            alert('Deep Breathing Exercise Starting...\n\nFollow these steps:\n1. Inhale for 4 seconds\n2. Hold for 4 seconds\n3. Exhale for 6 seconds\n4. Repeat 10 times\n\nFind a quiet place and begin!');
+        }
+    </script>
+</body>
+</html>

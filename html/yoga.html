@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoga & Meditation - HealthHub</title>
+    <link rel="stylesheet" href="/css/navbar.css" />
+    <link rel="stylesheet" href="/css/yoga.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="nav-container">
+            <div class="logo">
+                <i class="fas fa-heartbeat"></i> 
+                <a href="index.html" style="text-decoration: none; color: inherit;">HealthHub</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="fitness.html">Fitness</a></li>
+                <li><a href="yoga.html" style="color: #28a745;">Yoga</a></li>
+                <li><a href="nutrition.html">Nutrition</a></li>
+                <li><a href="mental-health.html">Mental Health</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>Yoga & Meditation</h1>
+        <p>Find inner peace, flexibility and mental clarity through ancient practices</p>
+    </section>
+
+    <!-- Yoga Videos Section -->
+    <section class="yoga-videos">
+        <h2 class="section-title">Yoga Video Guides</h2>
+        
+        <!-- Working Yoga Videos -->
+        <div class="video-category">
+            <h3 class="category-title">🧘 Popular Yoga Videos</h3>
+            <div class="videos-grid">
+                <!-- Video 1 - WORKING -->
+                <div class="video-card">
+                    <div class="video-placeholder">
+                        <div class="play-button" onclick="playVideo('yoga-beginners')">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <div style="text-align: center;">
+                            <i class="fas fa-video"></i>
+                            <div>Yoga for Beginners</div>
+                        </div>
+                    </div>
+                    <div class="video-info">
+                        <h3>Yoga for Complete Beginners</h3>
+                        <div class="video-duration">Duration: 25 minutes • Level: Beginner</div>
+                        <p>Perfect starting point for yoga newcomers</p>
+                    </div>
+                </div>
+
+                <!-- Video 2 - WORKING -->
+                <div class="video-card">
+                    <div class="video-placeholder">
+                        <div class="play-button" onclick="playVideo('morning-yoga')">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <div style="text-align: center;">
+                            <i class="fas fa-sun"></i>
+                            <div>Morning Yoga</div>
+                        </div>
+                    </div>
+                    <div class="video-info">
+                        <h3>10 Min Morning Yoga</h3>
+                        <div class="video-duration">Duration: 10 minutes • Level: All Levels</div>
+                        <p>Energize your day with morning stretches</p>
+                    </div>
+                </div>
+
+                <!-- Video 3 - WORKING -->
+                <div class="video-card">
+                    <div class="video-placeholder">
+                        <div class="play-button" onclick="playVideo('evening-yoga')">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <div style="text-align: center;">
+                            <i class="fas fa-moon"></i>
+                            <div>Evening Yoga</div>
+                        </div>
+                    </div>
+                    <div class="video-info">
+                        <h3>Evening Relaxation Yoga</h3>
+                        <div class="video-duration">Duration: 20 minutes • Level: Beginner</div>
+                        <p>Wind down and release daily stress</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Meditation Section -->
+    <section class="meditation-section">
+        <div class="meditation-content">
+            <h2 class="section-title" style="color: white;">Meditation Practices</h2>
+            <p style="font-size: 1.2rem; margin-bottom: 2rem; opacity: 0.9;">Calm your mind and reduce stress with these meditation techniques</p>
+            
+            <div class="meditation-grid">
+                <div class="meditation-card">
+                    <h3>Mindfulness Meditation</h3>
+                    <ul>
+                        <li>Focus on present moment</li>
+                        <li>Observe thoughts without judgment</li>
+                        <li>5-20 minutes daily</li>
+                        <li>Reduces anxiety</li>
+                        <li>Improves focus</li>
+                    </ul>
+                </div>
+
+                <div class="meditation-card">
+                    <h3>Breathing Meditation</h3>
+                    <ul>
+                        <li>Focus on breath</li>
+                        <li>Count breaths 1-10</li>
+                        <li>Calms nervous system</li>
+                        <li>Lowers blood pressure</li>
+                        <li>Instant stress relief</li>
+                    </ul>
+                </div>
+
+                <div class="meditation-card">
+                    <h3>Guided Meditation</h3>
+                    <ul>
+                        <li>Follow audio instructions</li>
+                        <li>Perfect for beginners</li>
+                        <li>Visualization techniques</li>
+                        <li>Body scan meditation</li>
+                        <li>Sleep meditation</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Meditation Videos -->
+            <div style="margin-top: 4rem;">
+                <h3 style="margin-bottom: 2rem; font-size: 1.5rem;">Meditation Videos</h3>
+                <div class="videos-grid">
+                    <div class="video-card">
+                        <div class="video-placeholder">
+                            <div class="play-button" onclick="playVideo('meditation-beginners')">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <div style="text-align: center;">
+                                <i class="fas fa-headphones"></i>
+                                <div>Meditation Guide</div>
+                            </div>
+                        </div>
+                        <div class="video-info">
+                            <h3>Meditation for Beginners</h3>
+                            <div class="video-duration">Duration: 5 minutes • Level: Beginner</div>
+                            <p>Learn basic meditation techniques</p>
+                        </div>
+                    </div>
+
+                    <div class="video-card">
+                        <div class="video-placeholder">
+                            <div class="play-button" onclick="playVideo('sleep-meditation')">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <div style="text-align: center;">
+                                <i class="fas fa-bed"></i>
+                                <div>Sleep Meditation</div>
+                            </div>
+                        </div>
+                        <div class="video-info">
+                            <h3>Sleep Meditation</h3>
+                            <div class="video-duration">Duration: 5 minutes • Level: All Levels</div>
+                            <p>Fall asleep faster and deeper</p>
+                        </div>
+                    </div>
+
+                    <div class="video-card">
+                        <div class="video-placeholder">
+                            <div class="play-button" onclick="playVideo('stress-relief')">
+                                <i class="fas fa-play"></i>
+                            </div>
+                            <div style="text-align: center;">
+                                <i class="fas fa-heart"></i>
+                                <div>Stress Relief</div>
+                            </div>
+                        </div>
+                        <div class="video-info">
+                            <h3>Stress Relief Meditation</h3>
+                            <div class="video-duration">Duration: 30 minutes • Level: All Levels</div>
+                            <p>Instant calm and relaxation</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Yoga Poses -->
+    <section class="yoga-poses">
+        <h2 class="section-title">Basic Yoga Poses for Beginners</h2>
+        <div class="poses-grid">
+            <!-- Mountain Pose -->
+            <div class="pose-card">
+                <h3>Mountain Pose (Tadasana)</h3>
+                <p>Foundation for all standing poses</p>
+                <ul>
+                    <li>Stand with feet together</li>
+                    <li>Arms at sides, palms facing forward</li>
+                    <li>Engage thigh muscles</li>
+                    <li>Hold for 30-60 seconds</li>
+                    <li>Focus on steady breathing</li>
+                </ul>
+            </div>
+
+            <!-- Downward Dog -->
+            <div class="pose-card">
+                <h3>Downward Dog (Adho Mukha Svanasana)</h3>
+                <p>Full body stretch and strength</p>
+                <ul>
+                    <li>Start on hands and knees</li>
+                    <li>Lift hips toward ceiling</li>
+                    <li>Form inverted V shape</li>
+                    <li>Hold for 1-2 minutes</li>
+                    <li>Great for flexibility</li>
+                </ul>
+            </div>
+
+            <!-- Warrior II -->
+            <div class="pose-card">
+                <h3>Warrior II (Virabhadrasana II)</h3>
+                <p>Builds strength and stamina</p>
+                <ul>
+                    <li>Step feet wide apart</li>
+                    <li>Turn right foot out 90 degrees</li>
+                    <li>Bend right knee over ankle</li>
+                    <li>Arms extended parallel to floor</li>
+                    <li>Hold for 30 seconds each side</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Navigation -->
+    <section style="padding: 3rem 5%; text-align: center;">
+        <a href="index.html" class="btn">Back to Home</a>
+    </section>
+
+    <!-- Simple Quick Links -->
+    <section class="quick-links">
+        <h3>Quick Links</h3>
+        <div>
+            <a href="index.html">Home</a> • 
+            <a href="fitness.html">Fitness</a> • 
+            <a href="nutrition.html">Nutrition</a> • 
+            <a href="mental-health.html">Mental Health</a> • 
+            <a href="about.html">About</a> • 
+            <a href="contact.html">Contact</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 HealthHub. All rights reserved.</p>
+    </footer>
+ <script src="/js/yoga.js"></script>
+</body>
+</html>

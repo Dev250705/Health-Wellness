@@ -1,0 +1,103 @@
+.main-content {
+  padding: 2rem 5%;
+  max-width: 1200px;
+  margin: 80px auto;
+}
+
+.page-header {
+  background: linear-gradient(135deg, #28a745, #20c997);
+  color: white;
+  padding: 3rem;
+  border-radius: 15px;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.workout-plan {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.exercise-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+.exercise-table th,
+.exercise-table td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.exercise-table th {
+  background: #f8f9fa;
+  color: #28a745;
+  font-weight: 600;
+}
+
+.btn {
+  background: #28a745;
+  color: white;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 1rem;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.quick-links {
+  background: #333;
+  color: white;
+  padding: 3rem 5%;
+  margin-top: 4rem;
+}
+
+.links-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.link-group h3 {
+  color: #28a745;
+  margin-bottom: 1rem;
+}
+
+.link-group a {
+  display: block;
+  color: #ccc;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 2rem 5%;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+  body {
+    padding-top: 70px;
+  }
+}

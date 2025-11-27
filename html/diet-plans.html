@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="hi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diet Plans - HealthHub</title>
+    <link rel="stylesheet" href="/css/navbar.css" />
+    <link rel="stylesheet" href="/css/diet-plans.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="nav-container">
+        <div class="logo">
+          <i class="fas fa-heartbeat"></i>
+          <a
+            href="index.html"
+            style="text-decoration: none; color: inherit"
+            >HealthHub</a
+          >
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="fitness.html">Fitness</a></li>
+          <li><a href="yoga.html">Yoga</a></li>
+          <li><a href="nutrition.html">Nutrition</a></li>
+          <li><a href="mental-health.html">Mental Health</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="page-header">
+      <h1>Vegetarian Diet Plans</h1>
+      <p>
+        Choose from 9 specialized vegetarian diet plans for your health goals
+      </p>
+    </section>
+
+    <section class="diet-plans">
+      <h2 class="section-title">9 Specialized Vegetarian Diet Plans</h2>
+
+      <div class="plans-grid">
+        <!-- Row 1 - 3 Cards -->
+        <div class="plan-card">
+          <div
+            class="plan-image"
+            style="background-image: url('/images/D1.jpg')"
+          ></div>
+          <div class="plan-info">
+            <h3>Weight Loss Diet</h3>
+            <div class="plan-meta">
+              <span>Calories: 1200-1500</span>
+              <span>Duration: 8 weeks</span>
+            </div>
+            <ul class="plan-features">
+              <li>High protein, low carb meals</li>
+              <li>Portion control guidance</li>
+              <li>Weekly meal plans</li>
+              <li>Healthy snack options</li>
+            </ul>
+            <button class="btn" onclick="viewPlan('weight-loss')">
+              View Full Plan
+            </button>
+          </div>
+        </div>
+
+        <div class="plan-card">
+          <div
+            class="plan-image"
+            style="background-image: url('/images/D2.jpg')"
+          ></div>
+          <div class="plan-info">
+            <h3>Muscle Building Diet</h3>
+            <div class="plan-meta">
+              <span>Calories: 2500-3000</span>
+              <span>Duration: 12 weeks</span>
+            </div>
+            <ul class="plan-features">
+              <li>High protein intake</li>
+              <li>Complex carbohydrates</li>
+              <li>Healthy fats included</li>
+              <li>Meal timing strategies</li>
+            </ul>
+            <button class="btn" onclick="viewPlan('muscle-building')">
+              View Full Plan
+            </button>
+          </div>
+        </div>
+
+        <div class="plan-card">
+          <div
+            class="plan-image"
+            style="background-image: url('/images/D3.jpg')"
+          ></div>
+          <div class="plan-info">
+            <h3>Balanced Vegetarian Diet</h3>
+            <div class="plan-meta">
+              <span>Calories: 1600-2000</span>
+              <span>Duration: Ongoing</span>
+            </div>
+            <ul class="plan-features">
+              <li>Plant-based protein sources</li>
+              <li>Complete nutrition balance</li>
+              <li>Dairy and egg options</li>
+              <li>Iron and B12 focus</li>
+            </ul>
+            <button class="btn" onclick="viewPlan('vegetarian')">
+              View Full Plan
+            </button>
+          </div>
+        </div>
+
+        <!-- Row 2 - 3 Cards -->
+        <div class="plan-card">
+          <div
+            class="plan-image"
+            style="background-image: url('/images/D4.jpg')"
+          ></div>
+          <div class="plan-info">
+            <h3>Vegetarian Keto Diet</h3>
+            <div class="plan-meta">
+              <span>Carbs: 20-50g daily</span>
+              <span>Duration: 6 weeks</span>
+            </div>
+            <ul class="plan-features">
+              <li>High fat, low carb meals</li>
+              <li>Ketosis induction guide</li>
+              <li>Keto-friendly recipes</li>
+              <li>Electrolyte management</li>
+            </ul>
+            <button class="btn" onclick="viewPlan('keto')">
+              View Full Plan
+            </button>
+          </div>
+        </div>
+
+        <div class="plan-card">
+          <div
+            class="plan-image"
+            style="background-image: url('/images/D5.jpeg')"
+          ></div>
+          <div class="plan-info">
+            <h3>Detox & Cleanse</h3>
+            <div class="plan-meta">
+              <span>Duration: 7 days</span>
+              <span>Level: Intermediate</span>
+            </div>
+            <ul class="plan-features">
+              <li>Liver cleansing foods</li>
+              <li>Antioxidant rich meals</li>
+              <li>Hydration focus</li>
+              <li>Fiber-rich vegetables</li>
+            </ul>
+            <button class="btn" onclick="viewPlan('detox')">
+              View Full Plan
+            </button>
+          </div>
+        </div>
+
+        <div class="plan-card">
+          <div
+            class="plan-image"
+            style="background-image: url('/images/D6.jpg')"
+          ></div>
+          <div class="plan-info">
+            <h3>Heart Healthy Diet</h3>
+            <div class="plan-meta">
+              <span>Low sodium, Low fat</span>
+              <span>Duration: Ongoing</span>
+            </div>
+            <ul class="plan-features">
+              <li>Cholesterol control</li>
+              <li>Blood pressure management</li>
+              <li>Omega-3 rich foods</li>
+              <li>Fiber focused meals</li>
+            </ul>
+            <button class="btn" onclick="viewPlan('heart-healthy')">
+              View Full Plan
+            </button>
+          </div>
+        </div>
+
+        <!-- Row 3 - 3 Cards -->
+        <div class="plan-card">
+          <div
+            class="plan-image"
+            style="background-image: url('/images/D7.jpg')"
+          ></div>
+          <div class="plan-info">
+            <h3>Diabetic Diet Plan</h3>
+            <div class="plan-meta">
+              <span>Low GI foods</span>
+              <span>Duration: Ongoing</span>
+            </div>
+            <ul class="plan-features">
+              <li>Blood sugar control</li>
+              <li>Carb counting guide</li>
+              <li>Healthy snacking options</li>
+              <li>Meal timing strategies</li>
+            </ul>
+            <button class="btn" onclick="viewPlan('diabetic')">
+              View Full Plan
+            </button>
+          </div>
+        </div>
+
+        <div class="plan-card">
+          <div
+            class="plan-image"
+            style="background-image: url('/images/D8.jpg')"
+          ></div>
+          <div class="plan-info">
+            <h3>Mediterranean Diet</h3>
+            <div class="plan-meta">
+              <span>Heart healthy</span>
+              <span>Duration: Ongoing</span>
+            </div>
+            <ul class="plan-features">
+              <li>Olive oil based cooking</li>
+              <li>Fresh vegetables & fruits</li>
+              <li>Plant-based proteins</li>
+              <li>Whole grains</li>
+            </ul>
+            <button class="btn" onclick="viewPlan('mediterranean')">
+              View Full Plan
+            </button>
+          </div>
+        </div>
+
+        <div class="plan-card">
+          <div
+            class="plan-image"
+            style="background-image: url('/images/D9.jpg')"
+          ></div>
+          <div class="plan-info">
+            <h3>Athlete Performance Diet</h3>
+            <div class="plan-meta">
+              <span>High energy</span>
+              <span>Duration: Training season</span>
+            </div>
+            <ul class="plan-features">
+              <li>Pre-workout nutrition</li>
+              <li>Post-workout recovery</li>
+              <li>Hydration strategies</li>
+              <li>Energy dense meals</li>
+            </ul>
+            <button class="btn" onclick="viewPlan('athlete')">
+              View Full Plan
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div style="text-align: center">
+        <a
+          href="nutrition.html"
+          class="btn1"
+          style="width: auto; display: inline-block; margin-right: 1rem"
+          >Back to Nutrition</a>
+        <a
+          href="recipes.html"
+          class="btn1"
+          style="width: auto; display: inline-block; background: #17a2b8"
+          >Healthy Recipes</a>
+      </div>
+    </section>
+
+    <!-- Diet Plan Modal -->
+    <div id="planModal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 id="modalTitle">Diet Plan Details</h2>
+          <span class="close-btn" onclick="closeModal()">&times;</span>
+        </div>
+        <div class="plan-detail">
+          <div id="modalContent">
+            <!-- Content will be loaded here by JavaScript -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Simple Quick Links -->
+    <section class="quick-links">
+      <h3>Quick Links</h3>
+      <div>
+        <a href="index.html">Home</a> •
+        <a href="fitness.html">Fitness</a> •
+        <a href="yoga.html">Yoga</a> •
+        <a href="nutrition.html">Nutrition</a> •
+        <a href="mental-health.html">Mental Health</a> •
+        <a href="about.html">About</a>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 HealthHub. All rights reserved.</p>
+    </footer>
+
+    <script src="/js/diet-plan.js"></script>
+  </body>
+</html>

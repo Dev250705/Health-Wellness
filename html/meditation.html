@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meditation - HealthHub</title>
+    <link rel="stylesheet" href="/css/navbar.css" />
+    <link rel="stylesheet" href="/css/meditation.css" />
+
+ 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+<header>
+        <nav class="nav-container">
+            <div class="logo">
+                <i class="fas fa-heartbeat"></i> 
+                <a href="index.html" style="text-decoration: none; color: inherit;">HealthHub</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="fitness.html">Fitness</a></li>
+                <li><a href="yoga.html">Yoga</a></li>
+                <li><a href="nutrition.html">Nutrition</a></li>
+                <li><a href="mental-health.html">Mental Health</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>Meditation & Mindfulness</h1>
+        <p>Find inner peace and mental clarity through guided meditation practices</p>
+    </section>
+
+    <!-- Meditation Types -->
+    <section class="meditation-types">
+        <h2 class="section-title">Types of Meditation</h2>
+        <div class="types-grid">
+            <div class="type-card">
+                <i class="fas fa-brain"></i>
+                <h3>Mindfulness Meditation</h3>
+                <p>Focus on present moment awareness without judgment. Perfect for beginners to develop concentration.</p>
+            </div>
+
+            <div class="type-card">
+                <i class="fas fa-wind"></i>
+                <h3>Breathing Meditation</h3>
+                <p>Concentrate on your breath to calm the mind and reduce stress. Great for anxiety relief.</p>
+            </div>
+
+            <div class="type-card">
+                <i class="fas fa-headphones"></i>
+                <h3>Guided Meditation</h3>
+                <p>Follow audio instructions for relaxation and visualization. Ideal for sleep and stress management.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Meditation Videos -->
+    <section class="meditation-videos">
+        <h2 class="section-title">Guided Meditation Sessions</h2>
+        <div class="videos-grid">
+            <div class="video-card">
+                <div class="video-placeholder">
+                    <div class="play-button" onclick="playVideo('beginners-meditation')">
+                        <i class="fas fa-play"></i>
+                    </div>
+                    <div style="text-align: center;">
+                        <i class="fas fa-user-friends"></i>
+                        <div>Beginner's Guide</div>
+                    </div>
+                </div>
+                <div class="video-info">
+                    <h3>Meditation for Beginners</h3>
+                    <div class="video-duration">10 minutes • Basic Level</div>
+                    <p>Perfect starting point for meditation newcomers</p>
+                    <a href="https://www.youtube.com/watch?v=inpok4MKVLM" target="_blank" class="btn" style="width: auto; display: inline-block; margin-top: 1rem;">Watch Video</a>
+                </div>
+            </div>
+
+            <div class="video-card">
+                <div class="video-placeholder">
+                    <div class="play-button" onclick="playVideo('sleep-meditation')">
+                        <i class="fas fa-play"></i>
+                    </div>
+                    <div style="text-align: center;">
+                        <i class="fas fa-bed"></i>
+                        <div>Sleep Meditation</div>
+                    </div>
+                </div>
+                <div class="video-info">
+                    <h3>Deep Sleep Meditation</h3>
+                    <div class="video-duration">20 minutes • All Levels</div>
+                    <p>Fall asleep faster and enjoy deeper rest</p>
+                    <a href="https://www.youtube.com/watch?v=BYT7mDPwjs8" target="_blank" class="btn" style="width: auto; display: inline-block; margin-top: 1rem;">Watch Video</a>
+                </div>
+            </div>
+
+            <div class="video-card">
+                <div class="video-placeholder">
+                    <div class="play-button" onclick="playVideo('stress-relief')">
+                        <i class="fas fa-play"></i>
+                    </div>
+                    <div style="text-align: center;">
+                        <i class="fas fa-heart"></i>
+                        <div>Stress Relief</div>
+                    </div>
+                </div>
+                <div class="video-info">
+                    <h3>Stress Relief Meditation</h3>
+                    <div class="video-duration">15 minutes • All Levels</div>
+                    <p>Release tension and find instant calm</p>
+                    <a href="https://www.youtube.com/watch?v=6vO1wPAmiMQ" target="_blank" class="btn" style="width: auto; display: inline-block; margin-top: 1rem;">Watch Video</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits-section">
+        <h2 class="section-title">Benefits of Meditation</h2>
+        <div class="benefits-grid">
+            <div class="benefit-card">
+                <i class="fas fa-smile"></i>
+                <h4>Reduces Stress</h4>
+                <p>Lowers cortisol levels and promotes relaxation</p>
+            </div>
+
+            <div class="benefit-card">
+                <i class="fas fa-brain"></i>
+                <h4>Improves Focus</h4>
+                <p>Enhances concentration and attention span</p>
+            </div>
+
+            <div class="benefit-card">
+                <i class="fas fa-moon"></i>
+                <h4>Better Sleep</h4>
+                <p>Helps with insomnia and improves sleep quality</p>
+            </div>
+
+            <div class="benefit-card">
+                <i class="fas fa-heart"></i>
+                <h4>Emotional Health</h4>
+                <p>Increases self-awareness and emotional stability</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Navigation -->
+    <section style="padding: 3rem 5%; text-align: center;">
+        <a href="index.html" class="btn">Back to Home</a>
+    </section>
+
+    <!-- Simple Quick Links -->
+    <section class="quick-links">
+        <h3>Quick Links</h3>
+        <div>
+            <a href="index.html">Home</a> • 
+            <a href="fitness.html">Fitness</a> • 
+            <a href="yoga.html">Yoga</a> • 
+            <a href="nutrition.html">Nutrition</a> • 
+            <a href="meditation.html">Meditation</a> • 
+            <a href="about.html">About</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 HealthHub. All rights reserved.</p>
+    </footer>
+
+   <script src="/js/meditation.js"></script>
+</body>
+</html>

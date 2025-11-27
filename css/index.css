@@ -1,0 +1,94 @@
+/* HERO SECTION */
+.hero {
+    padding: 8rem 5% 5rem;
+    text-align: center;
+    background: linear-gradient(135deg, #28a745, #17a2b8);
+    color: white;
+}
+
+.hero h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+/* Button Hover */
+.btn {
+    display: inline-block;
+    background: white;
+    color: #28a745;
+    padding: 0.9rem 1.7rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.btn:hover {
+    background: #eafbea;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+}
+
+/* FEATURES */
+.features {
+    max-width: 1200px;
+    margin: auto;
+    padding: 4rem 5%;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 2rem;
+}
+
+.feature-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s ease;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.feature-card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+.feature-card i {
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+    color: #28a745;
+}
+
+/* FOOTER */
+footer {
+    background: #222;
+    color: #ccc;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+/* MOBILE FIX */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.2rem;
+    }
+}

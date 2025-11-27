@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #f4f7f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background: white;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 1rem 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  color: #28a745;
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #333;
+  font-weight: 500;
+  padding-bottom: 4px;
+  position: relative;
+}
+
+/* Underline Hover Effect */
+.nav-links a::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #28a745;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 0.3s ease;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
+}
+
+.nav-links a:hover {
+  color: #28a745;
+}
+
+/*Quick links*/
+.quick-links {
+  background: #2d2d2d;
+  color: white;
+  padding: 4rem 5%;
+}
+
+.links-grid {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 3rem;
+}
+
+.link-group h3 {
+  color: #28a745;
+  margin-bottom: 1.2rem;
+}
+
+.link-group a {
+  display: block;
+  margin-bottom: 0.7rem;
+  color: #cccccc;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+.link-group a:hover {
+  color: #ffffff;
+  padding-left: 5px;
+}
+
+/*Simple quick links*/
+.quick-links {
+  background: #333;
+  color: white;
+  padding: 2rem 5%;
+  text-align: center;
+}
+
+.quick-links h3 {
+  color: #28a745;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.quick-links a {
+  color: #ccc;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+.quick-links a:hover {
+  color: white;
+}
